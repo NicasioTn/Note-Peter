@@ -10,3 +10,14 @@ https://www.varonis.com/blog/nmap-commands
     1. Messages digest เป็นการนำข้อมูลมาย่อให้เล็กลง
     2. ถ้าข้อมูลต้นฉบับไม่เหมือนกัน message digest ของทั้งสองจะต้องไม่เหมือนกันด้วย
     3. ไม่สามารถทำการคำนวณหาข้อมูลต้นฉบับได้โดยใช้แค่ message digest
+
+Headers คือส่วนที่ระบุข้อมูล และกฏต่างๆ ในการเชื่อมต่อ เช่น
+- accept คือระะบุรูปแบบของข้อมูล เช่น application/json, text/html
+- accept-encoding คือระบุการเข้ารหัส เช่น gzip
+- user-agen คือระบุประเภทของ Client เช่น Mozilla/5.0
+- และส่วนอื่นๆอีก สามารถดูรายละเอียดเพิ่มเติมได้ที่นี่: https://www.tutorialspoint.com/http/http_requests.htm 
+
+ทดสอบ
+SSL/TLS protocol (HTTPS) ปลอดภัยมาก-น้อย
+ความง่ายของมันคือ มันตอบกลับมาเป็น grade ที่เข้าใจง่ายคนที่ไม่ต้องรู้เรื่องช่องโหว่ SSL/TLS ก็สามารถอ่านเข้าใจได้ว่า ความปลอดภัยเว็บ HTTPS ของตัวเองเป็นยังไง อยู่ระดับไหน
+TestSSL.sh is a command-line utility for testing the security of SSL/TLS servers and clients. It can be used to check for vulnerabilities in SSL/TLS configurations, such as weak ciphers, SSLv2 and SSLv3, and other potential security issues.
