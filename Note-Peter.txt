@@ -1,0 +1,12 @@
+site 
+vulner.nse
+https://vulners.com/search
+
+อ่านเพิ่มเติม nmap command
+https://www.varonis.com/blog/nmap-commands
+
+
+คุณสมบัติ Message Digest
+    1. Messages digest เป็นการนำข้อมูลมาย่อให้เล็กลง
+    2. ถ้าข้อมูลต้นฉบับไม่เหมือนกัน message digest ของทั้งสองจะต้องไม่เหมือนกันด้วย
+    3. ไม่สามารถทำการคำนวณหาข้อมูลต้นฉบับได้โดยใช้แค่ message digest
