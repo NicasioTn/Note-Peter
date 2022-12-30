@@ -1,0 +1,38 @@
+- ย่อหน้าสุดท้าย หลักการและเหตุผล 
+   ความปลอดภัย --> ความมั่นคงปลอดภัย
+- 1.3) --> 2)--> 2.1) -->1) เพิ่มอ้างอิง Bit of Entropy 
+- แก้การ citation ไม่ให้ยกลอย แต่ให้วางข้างๆ 
+- บรรทัดที่ 2 จากท้ายหน้า 3 เอา QR code ไปไว้หลัง one way hash แก้ดังนี้
+  2) สามารถแสดงผลลัพธ์ของการทำ Message Digesting ในรูปแบบข้อความ
+    3) สามารถแสดงผลลัพธ์ของการทำ Message Digesting ในรูปแบบ QR Code 
+          ของข้อความ 
+- หน้า 12 
+      คำว่าความปลอดภัย ให้ระวังปัญหา กับคำนี้ ให้ดีใช้คำว่า "ความมั่นคงปลอดภัย" แทน ท้้งรายงาน
+- หน้า 13 
+      Hybrid Attack น่าจะเพิ่มตัวอย่าง
+- บรรทัด 2.1.5 Malware คำผิด "ซึ่งมากXจาก"
+- เพิ่ม citation/reference VirusTotal ตรง 2.1.6
+- โปรโตคอล -> โพรโทคอล แก้ทั้งเล่ม 
+- เพิ่ม citation/reference MD5 ตรง 2.1.13 
+- เพิ่ม citation/reference SHA-1, SHA-2, SHA-3 ตรง 2.1.14
+- reference format แก้ให้ indenting 
+
+
+*viva
+- ตอบคำถาม อ. สุชาติ Box? ต้องติดตั้งมะ? ตอบไม่ทัน อึ้งไป
+- Docker?
+- pentestbox หรือไม่? กรรมการคิดว่า pentest?
+- ทำไมเลือก features เหล่านี้? 
+- ไม่มีความรู้? 
+- ตรวจยังไง? 
+- Malware scan Explain? --> motivation? how?
+- Nmap options?
+- vulner.nse report
+
+
+1) จัดกลุ่มขอบเขตของ features
+2) รายละเอียดของ port scan อะไรมั่ง 3 อย่าง output ?
+3) รายละเอียด HTTPS Test report : Certificate Key, 
+4) แก้ตาราง 2.1 
+5) เพิ่มคำอธิบาย malware scan 
+6) sample GUI
